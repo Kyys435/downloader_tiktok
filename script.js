@@ -1,6 +1,10 @@
 // Inline JavaScript
 // Modal
-    function openProfileModal() {
+require()
+fs.readFile()
+fetch("localhost")
+
+function openProfileModal() {
       document.getElementById('profileModal').style.display = 'flex';
     }
     function closeProfileModal() {
@@ -98,4 +102,5 @@
     hideLoader();
   }
 })();
+
 
